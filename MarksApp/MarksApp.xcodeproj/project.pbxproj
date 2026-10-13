@@ -1,0 +1,259 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C01A18AA11AA11AA11AA0040 /* MarksAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01A18AA11AA11AA11AA0020 /* MarksAppApp.swift */; };
+		C01A18AA11AA11AA11AA0041 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01A18AA11AA11AA11AA0021 /* ContentView.swift */; };
+		C01A18AA11AA11AA11AA0042 /* Student.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01A18AA11AA11AA11AA0022 /* Student.swift */; };
+		C01A18AA11AA11AA11AA0043 /* StudentInputValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01A18AA11AA11AA11AA0023 /* StudentInputValidator.swift */; };
+		C01A18AA11AA11AA11AA0044 /* StudentRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01A18AA11AA11AA11AA0024 /* StudentRowView.swift */; };
+		C01A18AA11AA11AA11AA0045 /* StudentDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C01A18AA11AA11AA11AA0025 /* StudentDetailView.swift */; };
+		C01A18AA11AA11AA11AA0061 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C01A18AA11AA11AA11AA0060 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		C01A18AA11AA11AA11AA0020 /* MarksAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarksAppApp.swift; sourceTree = "<group>"; };
+		C01A18AA11AA11AA11AA0021 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		C01A18AA11AA11AA11AA0022 /* Student.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Student.swift; sourceTree = "<group>"; };
+		C01A18AA11AA11AA11AA0023 /* StudentInputValidator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentInputValidator.swift; sourceTree = "<group>"; };
+		C01A18AA11AA11AA11AA0024 /* StudentRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentRowView.swift; sourceTree = "<group>"; };
+		C01A18AA11AA11AA11AA0025 /* StudentDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StudentDetailView.swift; sourceTree = "<group>"; };
+		C01A18AA11AA11AA11AA0060 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C01A18AA11AA11AA11AA0007 /* MarksApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MarksApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXGroup section */
+		C01A18AA11AA11AA11AA0002 = {
+			isa = PBXGroup;
+			children = (
+				C01A18AA11AA11AA11AA0003 /* MarksApp */,
+				C01A18AA11AA11AA11AA0005 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C01A18AA11AA11AA11AA0003 /* MarksApp */ = {
+			isa = PBXGroup;
+			children = (
+				C01A18AA11AA11AA11AA0004 /* MarksApp */,
+			);
+			name = MarksApp;
+			path = "";
+			sourceTree = "<group>";
+		};
+		C01A18AA11AA11AA11AA0004 /* MarksApp */ = {
+			isa = PBXGroup;
+			children = (
+				C01A18AA11AA11AA11AA0020 /* MarksAppApp.swift */,
+				C01A18AA11AA11AA11AA0021 /* ContentView.swift */,
+				C01A18AA11AA11AA11AA0022 /* Student.swift */,
+				C01A18AA11AA11AA11AA0023 /* StudentInputValidator.swift */,
+				C01A18AA11AA11AA11AA0024 /* StudentRowView.swift */,
+				C01A18AA11AA11AA11AA0025 /* StudentDetailView.swift */,
+				C01A18AA11AA11AA11AA0060 /* Assets.xcassets */,
+			);
+			path = MarksApp;
+			sourceTree = "<group>";
+		};
+		C01A18AA11AA11AA11AA0005 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C01A18AA11AA11AA11AA0007 /* MarksApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C01A18AA11AA11AA11AA0006 /* MarksApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C01A18AA11AA11AA11AA0011 /* Build configuration list for PBXNativeTarget "MarksApp" */;
+			buildPhases = (
+				C01A18AA11AA11AA11AA0008 /* Sources */,
+				C01A18AA11AA11AA11AA0009 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarksApp;
+			productName = MarksApp;
+			productReference = C01A18AA11AA11AA11AA0007 /* MarksApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C01A18AA11AA11AA11AA0001 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					C01A18AA11AA11AA11AA0006 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+				};
+			};
+			buildConfigurationList = C01A18AA11AA11AA11AA0010 /* Build configuration list for PBXProject "MarksApp" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C01A18AA11AA11AA11AA0002;
+			productRefGroup = C01A18AA11AA11AA11AA0005 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C01A18AA11AA11AA11AA0006 /* MarksApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C01A18AA11AA11AA11AA0009 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01A18AA11AA11AA11AA0061 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C01A18AA11AA11AA11AA0008 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C01A18AA11AA11AA11AA0040 /* MarksAppApp.swift in Sources */,
+				C01A18AA11AA11AA11AA0041 /* ContentView.swift in Sources */,
+				C01A18AA11AA11AA11AA0042 /* Student.swift in Sources */,
+				C01A18AA11AA11AA11AA0043 /* StudentInputValidator.swift in Sources */,
+				C01A18AA11AA11AA11AA0044 /* StudentRowView.swift in Sources */,
+				C01A18AA11AA11AA11AA0045 /* StudentDetailView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		C01A18AA11AA11AA11AA0012 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C01A18AA11AA11AA11AA0013 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		C01A18AA11AA11AA11AA0014 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "SE4041 Marks";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lk.ac.sliit.it23152632.marksapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C01A18AA11AA11AA11AA0015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				"CODE_SIGNING_ALLOWED[sdk=iphonesimulator*]" = NO;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = "SE4041 Marks";
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = lk.ac.sliit.it23152632.marksapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C01A18AA11AA11AA11AA0010 /* Build configuration list for PBXProject "MarksApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01A18AA11AA11AA11AA0012 /* Debug */,
+				C01A18AA11AA11AA11AA0013 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C01A18AA11AA11AA11AA0011 /* Build configuration list for PBXNativeTarget "MarksApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C01A18AA11AA11AA11AA0014 /* Debug */,
+				C01A18AA11AA11AA11AA0015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C01A18AA11AA11AA11AA0001 /* Project object */;
+}
